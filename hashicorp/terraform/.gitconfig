@@ -1,0 +1,7 @@
+[user]
+    email=developer@arusty.dev
+    name="adam smith"
+[format]
+    signoff=true
+[core]
+    editor=vim

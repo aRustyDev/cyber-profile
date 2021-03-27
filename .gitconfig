@@ -1,0 +1,40 @@
+# This is my .gitconfig file
+[color]
+    ui = true
+
+[color "branch"]
+    current = yellow reverse
+    local = yello
+    remote = green
+
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = red
+
+[user]
+    name = Adam Smith
+    email = developer@arusty.dev
+
+[url "https://github.com/aRustyDev/cyber-profile"] 
+    #EXAMPLE: git clone gh:me:cyber
+    insteadOf = gh:me:cyber
+
+[alias]
+    #Show all branches
+    br = branch -av
+
+    #Show all tags
+    tags = tag -l
+
+[format]
+    signoff=true
+
+[core]
+    editor=vim
