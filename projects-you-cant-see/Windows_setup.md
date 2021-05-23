@@ -42,7 +42,7 @@ $regex.Matches((Get-Volume -DriveLetter "C").UniqueId).value
 
 
 ## Sources
-https://stackoverflow.com/questions/20935356/methods-to-hex-edit-binary-files-via-powershell
-https://www.adlice.com/google-chrome-secure-preferences/
-https://stackoverflow.com/questions/10633357/how-to-unpack-resources-pak-from-google-chrome
-https://source.chromium.org/chromium/chromium/src/+/master:rlz/lib/machine_id.cc
+https://stackoverflow.com/questions/20935356/methods-to-hex-edit-binary-files-via-powershell  
+https://www.adlice.com/google-chrome-secure-preferences/  
+https://stackoverflow.com/questions/10633357/how-to-unpack-resources-pak-from-google-chrome  
+https://source.chromium.org/chromium/chromium/src/+/master:rlz/lib/machine_id.cc  
