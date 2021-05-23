@@ -21,6 +21,10 @@ How chrome manages preferences, both for independent users & via policy based ma
 How chrome secures the browser for the user.
 How to edit/manipulate/read binary & hex data from powershell.
 
+## Cool Snippets
+**Setting Browser Settings in Registry**  
+`Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Google\Chrome" -Name "RestoreOnStartupURLs" -Value "https://sub.domain.top/path/to/file.[aspx,html,php...etc]"`
+
 ## Sources
 https://stackoverflow.com/questions/20935356/methods-to-hex-edit-binary-files-via-powershell
 https://www.adlice.com/google-chrome-secure-preferences/
