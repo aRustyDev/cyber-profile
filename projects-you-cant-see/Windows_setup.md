@@ -29,6 +29,17 @@ Set-ItemProperty `
 -Name "RestoreOnStartupURLs" `
 -Value "https://sub.domain.top/path/to/file.[aspx,html,php...etc]"
 ```
+**Getting Local Computer SID**
+```powershell
+((Get-LocalUser | Select-Object -First 1).SID).AccountDomainSID.ToString()
+```
+**Getting Local Volume ID/Serial**
+```powershell
+[regex]$regex = '.{8}-.{4}-.{4}-.{4}-.{12}'
+$regex.Matches((Get-Volume -DriveLetter "C").UniqueId).value
+```
+
+
 
 ## Sources
 https://stackoverflow.com/questions/20935356/methods-to-hex-edit-binary-files-via-powershell
