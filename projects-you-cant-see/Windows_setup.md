@@ -46,3 +46,6 @@ https://stackoverflow.com/questions/20935356/methods-to-hex-edit-binary-files-vi
 https://www.adlice.com/google-chrome-secure-preferences/  
 https://stackoverflow.com/questions/10633357/how-to-unpack-resources-pak-from-google-chrome  
 https://source.chromium.org/chromium/chromium/src/+/master:rlz/lib/machine_id.cc  
+https://www.chromium.org/administrators/configuring-other-preferences  
+https://stackoverflow.com/questions/27232146/calculating-sha1-hash-algorithm-in-powershell-v2-0  
+
